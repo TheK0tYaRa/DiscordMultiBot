@@ -1,5 +1,5 @@
-use serenity::client::bridge::voice::ClientVoiceManager;
-use std::{env, sync::Arc};
+
+use std::env;
 
 #[tokio::main]
 async fn main() {
