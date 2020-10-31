@@ -6,6 +6,12 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[dependencies.tracing-subscriber]
+version = "0.2.14"
+
+[dependencies.songbird]
+path = "/home/thek0tyara/Downloads/git/serenity/songbird"
+
 [dependencies.serenity]
 features = [
     "client",
